@@ -18,7 +18,7 @@ public class arr {
 		double day=((year_from1970-(int)year_from1970)*365)-visokosny();
 		double hour=(day-(int) day)*24;
 		double minute=(hour-(int) hour)*60;
-		double sec=(minute-(int) minute)*60;
+		double sec=(minute-(int) minute)*60+000;
 //		System.out.println(System.currentTimeMillis()/1000);
 		System.out.println(year+" "+(int)day+" "+(int) hour+" "+(int)hour+" "+(int)sec);
 //		Kate.print();
